@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lagoon-950: #0f2826;
+  --color-lagoon-900: #1a3d3c;
+  --color-lagoon-700: #2a5a57;
+  --color-water: #2e9aa6;
+  --color-water-soft: #d7eef0;
+  --color-sand: #ede4d6;
+  --color-sand-soft: #f7f3ec;
+  --color-clay: #b9705e;
+  --color-sage: #6f8f7a;
+  --color-ink: #1d2523;
+  --color-mute: #5d6765;
+
+  --font-display: "Alexandria", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans Arabic", "Alexandria", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 76px;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-display); }
+
+:focus-visible {
+  outline: 2px solid var(--color-water);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* القوس — العنصر المعماري الأساسي في مكادي هايتس */
+.arch {
+  border-radius: 999px 999px 6px 6px;
+  overflow: hidden;
+}
+.arch-sm {
+  border-radius: 400px 400px 4px 4px;
+  overflow: hidden;
+}
+
+.hero-shade {
+  background:
+    linear-gradient(to left, rgb(15 40 38 / 0.82) 0%, rgb(15 40 38 / 0.45) 45%, rgb(15 40 38 / 0.1) 100%),
+    linear-gradient(to top, rgb(15 40 38 / 0.55), transparent 40%);
+}
+@media (max-width: 767px) {
+  .hero-shade {
+    background: linear-gradient(to top, rgb(15 40 38 / 0.92) 0%, rgb(15 40 38 / 0.55) 55%, rgb(15 40 38 / 0.25) 100%);
+  }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
+.rise-2 { animation-delay: .12s; }
+.rise-3 { animation-delay: .24s; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+input, select, textarea { font-family: var(--font-body); }
