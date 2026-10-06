@@ -8,7 +8,12 @@ Next.js 16.3.8 · React 19.3 · Tailwind 4 · TypeScript · Web3Forms
 - `adsId` و `conversions` (form / whatsapp / call)
 - `url` (الدومين)
 - `phone` / `whatsapp` لو مختلفين
-- `paymentHeadline` / `paymentNote` بخطة السداد المعتمدة
+- نصوص العربي والإنجليزي وخطة السداد في `lib/content.ts`
+
+## الروابط
+- `/` عربي
+- `/en` إنجليزي
+- `/thank-you` و `/en/thank-you`
 
 ## تشغيل
 npm install
