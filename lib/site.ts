@@ -5,9 +5,9 @@
 export const SITE = {
   url: "https://www.example.com", // ← دومين الصفحة
   brand: "Grandeur Spaces", // ← اسم المسوّق الظاهر في الإفصاح
-  phone: "01001050018",
-  phoneIntl: "+201001050018",
-  whatsapp: "201001050018",
+  phone: "01000411014",
+  phoneIntl: "+201000411014",
+  whatsapp: "201287470001",
   email: "leads@grandeur-spaces.com",
 
   web3formsKey: "YOUR_WEB3FORMS_ACCESS_KEY",
