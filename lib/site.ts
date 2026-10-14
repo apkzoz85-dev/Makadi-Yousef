@@ -14,9 +14,9 @@ export const SITE = {
 
   adsId: "AW-11305040793",
   conversions: {
-    form: "AW-XXXXXXXXXX/FORM_LABEL",
-    whatsapp: "AW-XXXXXXXXXX/WA_LABEL",
-    call: "AW-XXXXXXXXXX/CALL_LABEL",
+    form: "AW-11305040793/p2HDCOyS1pwdEJn31I4q",
+    whatsapp: "AW-11305040793/i0W5CN3s15wdEJn31I4q'",
+    call: "AW-11305040793/CT3MCMn_zJwdEJn31I4q",
   },
 
   chaletsFrom: "11.5",
