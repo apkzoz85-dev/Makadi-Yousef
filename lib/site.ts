@@ -10,7 +10,7 @@ export const SITE = {
   whatsapp: "201287470001",
   email: "leads@makadiheights.info",
 
-  web3formsKey: "YOUR_WEB3FORMS_ACCESS_KEY",
+  web3formsKey: "f78e6862-ce6c-439c-8908-056194b95b68",
 
   adsId: "AW-11305040793",
   conversions: {
