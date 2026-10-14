@@ -12,7 +12,7 @@ export const SITE = {
 
   web3formsKey: "YOUR_WEB3FORMS_ACCESS_KEY",
 
-  adsId: "AW-XXXXXXXXXX",
+  adsId: "AW-11305040793",
   conversions: {
     form: "AW-XXXXXXXXXX/FORM_LABEL",
     whatsapp: "AW-XXXXXXXXXX/WA_LABEL",
