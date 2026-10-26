@@ -4,7 +4,7 @@
 
 export const SITE = {
   url: "https://www.makadiheights.info", // ← دومين الصفحة
-  brand: "Grandeur Spaces", // ← اسم المسوّق الظاهر في الإفصاح
+  brand: "The Real Deal", // ← اسم المسوّق الظاهر في الإفصاح
   phone: "01000411014",
   phoneIntl: "+201000411014",
   whatsapp: "201287470001",
